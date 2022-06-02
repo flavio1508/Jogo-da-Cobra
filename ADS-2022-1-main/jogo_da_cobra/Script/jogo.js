@@ -289,9 +289,10 @@ function condiçõesFimJogo(){
 
 function perdeuJogo(){
         gameOver = true;
-        alert("Infelizmente você perdeu.");
-}
+        alert("Parabéns!Você ganhou! ");
+        
+} 
 function ganhouJogo(){
     gameOver = true;
-    alert("Parabéns!Você ganhou!");
+    alert("Infelizmente você perdeu.");
 }
